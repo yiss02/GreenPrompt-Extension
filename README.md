@@ -3,10 +3,13 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yiss02/GreenPrompt-Extension)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
+
 ## 📌 Présentation
 **GreenPrompt** est une extension de navigateur (Manifest V3) conçue pour sensibiliser les utilisateurs à l'impact environnemental caché de l'Intelligence Artificielle générative. 
 
 À chaque interaction sur ChatGPT, l'extension calcule en temps réel l'estimation de la consommation d'eau (refroidissement des serveurs) et l'empreinte carbone (CO2) générée, en affichant un feedback visuel immédiat (Toast UI).
+
+![Démo GreenPrompt](demo.gif)
 
 ## 🚀 Fonctionnalités
 - **Injection de scripts (Content Scripts) :** Détection automatique des prompts envoyés sur `chatgpt.com`.
