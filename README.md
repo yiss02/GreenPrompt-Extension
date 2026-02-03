@@ -1,6 +1,6 @@
 # 🌍 GreenPrompt - Chrome Extension
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/TON_PSEUDO/GreenPrompt-Extension)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yiss02/GreenPrompt-Extension)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## 📌 Présentation
@@ -25,7 +25,7 @@ L'IA consomme des ressources physiques massives. Les calculs de cette extension 
 * **Empreinte Carbone :** Estimations moyennes basées sur la consommation énergétique des data centers refroidis par air/eau.
 
 ## ⚙️ Installation (Mode Développeur)
-1. Clonez ce dépôt : `git clone https://github.com/TON_PSEUDO/GreenPrompt-Extension.git`
+1. Clonez ce dépôt : `git clone https://github.com/yiss02/GreenPrompt-Extension.git`
 2. Ouvrez Google Chrome et accédez à `chrome://extensions/`.
 3. Activez le **Mode développeur** (en haut à droite).
 4. Cliquez sur **Charger l'extension non empaquetée** et sélectionnez le dossier du projet.
