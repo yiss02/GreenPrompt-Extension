@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 250px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 15px;
+            background-color: #f4f7f6;
+        }
+        h2 { color: #2e7d32; font-size: 18px; }
+        
+        /* Le Verre */
+        .glass-container {
+            width: 80px;
+            height: 120px;
+            border: 3px solid #333;
+            border-top: none;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            margin: 20px auto;
+            position: relative;
+            background: #fff;
+            overflow: hidden; /* Pour que l'eau ne dépasse pas */
+        }
+
+        /* L'Eau */
+        .water {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 0%; /* Sera modifié par le JS */
+            background: linear-gradient(to top, #2196f3, #64b5f6);
+            transition: height 0.5s ease-in-out;
+        }
+
+        .stats { font-weight: bold; margin-top: 10px; }
+        .footer { font-size: 10px; color: #666; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <h2>Mon Impact IA 🌍</h2>
+    
+    <div class="glass-container">
+        <div id="waterLevel" class="water"></div>
+    </div>
+
+    <div class="stats">
+        <span id="mlCount">0</span> ml d'eau
+    </div>
+    <p id="promptText">0 prompt envoyé</p>
+
+    <div class="footer">
+        Basé sur une estimation de 10ml/prompt.<br>
+        Source : Univ. Riverside / Google.
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
